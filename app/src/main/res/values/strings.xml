@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidOInter</string>
+    <string name="close">关闭</string>
+    <string name="english">英语</string>
+    <string name="fanti">繁体</string>
+    <string name="jp">日语</string>
+    <string name="de">德语</string>
+    <string name="chinese">简体</string>
+    <string name="kor">韩语</string>
+
+    <string name="internationalization">internationalization</string>
+    <string name="change_position">我改变布局啦</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="tiaozhuan">next</string>
+
+</resources>

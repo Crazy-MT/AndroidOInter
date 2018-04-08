@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+
+        <!--简体-->
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_chinese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chinese"
+                />
+        </LinearLayout>
+
+        <!--繁体-->
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_fanti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fanti"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <!--韩语-->
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/id_kor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kor"
+                />
+        </LinearLayout>
+
+        <!--英语-->
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/english"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <!--日语-->
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/id_jp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jp"
+                />
+        </LinearLayout>
+
+        <!--德语-->
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_de"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/de"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/close"
+                android:scaleType="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_fragment_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tiaozhuan"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
